@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+h2{
+	font-family: minimal;
+}
+
+@font-face{
+	font-family: minimal;
+	src: url('minimal.otf');
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row2 {
+    margin-top: 91px;
+}
+
+.row {
+    margin-top: 71px;
+}
+
+#top-heading{
+	position: absolute;
+    top: -5px;
+    left: 515px;
+	font-size: 30px;
+	
+}
+
+.column1 {
+    /* margin-top: 89px; */
+    position: relative;
+    top: 679px;
+    width: 33.3%;
+    float: left;
+}
+
+#middle-heading{
+	margin-top:	65px;
+	font-size: 30px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.left{
+	position: absolute;
+    top: 22px;
+    left: 45px;
+    width: 440px;
+    display: block;
+    margin: 10px;
+	height: 4px;
+	background-color: black;
+	border-radius: 20px;
+}
+
+hr.left2 {
+    position: absolute;
+    top: 1003px;
+    left: 45px;
+    width: 440px;
+    display: block;
+    margin: 10px;
+    height: 4px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.right{
+	position: absolute;
+    width: 440px;
+    display: block;
+    margin: 10px;
+    left: 845px;
+    top: 26px;
+	height: 4px;
+	background-color: black;
+	border-radius: 20px;
+}
+
+hr.right2 {
+    position: absolute;
+    top: 1000px;
+    width: 440px;
+    display: block;
+    margin: 10px;
+    left: 845px;
+    /* top: 26px; */
+    height: 4px;
+    background-color: black;
+    border-radius: 20px;
+}
+</style>
+</head>
+<body>
+
+	<center>
+	<hr class="left">
+		<h2 id="top-heading">Embodying the carefree you</h2><hr class="right">
+	</center>
+	<!--<p>How to create side-by-side images with the CSS float property:</p>-->
+	<div class="row">
+	  <div class="column">
+		<img src="images/iindirheF9.jpg" alt="iindirheF9.jpg" style="width:100%">
+	  </div>
+	  <div class="column">
+		<img src="images/iindif2.jpg" alt="Forest" style="width:100%">
+	  </div>
+	  <div class="column">
+		<img src="images/iindirheF4.jpg" alt="Mountains" style="width:100%">
+	  </div>
+	</div>
+	<center>
+		<h2 id="middle-heading">Being bold with colour some may say is not for everyone, but I beg to differ using colour can be done by anyone and everyone. When using bold colors execution only requires two things understanding and confidence.</h2>
+	</center>
+	<div class="row2">
+	  <div class="column">
+		<img src="images/machwani.jpg" alt="iindirheF9.jpg" style="width:100%">
+	  </div>
+	  <div class="column">
+		<img src="images/iindirhe119.jpg" alt="Forest" style="width:100%">
+	  </div>
+	  <div class="column">
+		<img src="images/machwani2.jpg" alt="Mountains" style="width:100%">
+	  </div>
+	</div>
+	</div>
+	<center>
+	<hr class="left2">
+		<h2 id="top-heading">Embodying the carefree you</h2><hr class="right2">
+	</center>
+	<div class="row2">
+	  <div class="column1">
+		<img src="images/i6.jpg" alt="iindirheF9.jpg" style="width:100%">
+	  </div>
+	  <div class="column">
+		<img src="images/i5.jpg" alt="Forest" style="width:100%">
+	  </div>
+	  <div class="column">
+		<img src="images/i7.jpg" alt="Mountains" style="width:100%">
+	  </div>
+	</div>
+	
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+body {
+	background-image: url("images/blackwhiteafropunk.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  font-family: gold;
+  background-color: white;
+  color: black;
+}
+
+.sidepanel a:hover {
+  color: white;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+
+h1{
+   font-size:50px;
+   position: fixed;
+   left: 5%;
+   right:0;
+   bottom: 75%;
+   width: 100%;
+   background-color: transperent;
+   color: black;
+   text-align: center;
+}
+
+#top-bar{
+	background-color: white;
+	width: 1350px;
+	height: 37px;
+	position: absolute;
+	top: 230px;
+	font-family: gold;
+	font-size: 45px;
+	text-align: center;
+	padding-bottom: 8px;
+	border-radius: 5px;
+}
+
+@font-face{
+	src: url(Goldoni_DEMO.otf);
+	font-family: gold;
+}
+
+#copy-right{
+	position: absolute;
+	left: 600px;
+	top: 590px;
+}
